@@ -1,0 +1,72 @@
+
+.about-text{
+    color:white;
+    font-size:50px;
+    text-align: center;
+}
+.about-image{
+    width:600px;
+    height:600px;
+    margin-left: 150px;
+}
+.name-text{
+    color:white;
+    font-size:40px;
+
+}
+.extra-text{
+    color:white;
+    font-size:20px;
+    width:500px;
+    height:500px;
+    text-align: center;
+
+}
+
+
+.item1a{
+    grid-area:image; 
+}
+.item2a{
+    grid-area:about;
+    text-align: center;
+    text-align: center;
+    color: white;
+}
+.item3a{
+    grid-area:name;
+    text-align: center;
+    width:850px;
+}
+.item4a{
+    grid-area:extra;
+}
+.item5a{
+    grid-area: footer;
+    color:white;
+    font-size:50px;
+    text-align: center;
+    background-color:rgb(132, 6, 6);
+}
+.grid2{
+    display:grid; 
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "image image about about"
+    "name name extra extra"
+   "footer footer footer footer" ;
+}
+.contact{
+    font-size: 20px;
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 50;
+    color:white;
+}
+.contactText{
+    font-size: 50px;
+}
